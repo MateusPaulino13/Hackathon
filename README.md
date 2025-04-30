@@ -41,3 +41,12 @@ O projeto foi criado com o objetivo de **monitorar e incentivar hábitos saudáv
     /styles
 /README.md
 /package.json
+```
+
+## Autores
+
+- [Mateus Paulino](https://github.com/MateusPaulino13)
+- [Fernando Facioli](https://github.com/FerFacioli)
+- [Igor Leite](https://github.com/IgorLeiteViana)
+- [Gustavo Taborda](https://github.com/MajinGut)
+- [Matheus Marçal](https://github.com/xFORSAKENNx)
