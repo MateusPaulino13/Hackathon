@@ -22,16 +22,16 @@
         <img class="image" src="assets/images/8HealthNAVBAR.png" alt="" />
       </div>
 
-    <div class="menu-toggle" onclick="document.querySelector('.nav-list').classList.toggle('active')">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+      <div class="menu-toggle" onclick="document.querySelector('.nav-list').classList.toggle('active')">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
       <div class="nav-list">
         <ul>
           <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="pages/fint.html" class="nav-link">Dicas</a></li>
+          <li class="nav-item"><a href="pages/fint.php" class="nav-link">Dicas</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
         </ul>
       </div>
@@ -39,8 +39,6 @@
       <div class="login-button">
         <button><a href="#">Login</a></button>
       </div>
-
-      
     </nav>
   </header>
 
