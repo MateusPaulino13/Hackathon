@@ -103,6 +103,7 @@ h1 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
+<<<<<<< HEAD
 .remedio h2 {
   color: #172B54;
   font-size: 1.3rem;
@@ -159,3 +160,7 @@ h1 {
     gap: 1rem;
   }
 }
+=======
+}
+
+>>>>>>> 188c92aee43757aebff1d516143544f924bd46bd
