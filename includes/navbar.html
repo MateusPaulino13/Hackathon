@@ -1,38 +1,40 @@
-<link rel="stylesheet" href="../assets/styles/style.css">
+<link rel="stylesheet" href="../assets/styles/style.css" />
 <header>
-    <nav class="nav-bar">
-      <div class="logo">
-        <img class="image" src="assets/images/8HealthNAVBAR.png" alt="" />
-      </div>
+  <nav class="nav-bar">
+    <div class="logo">
+      <img class="image" src="assets/images/8HealthNAVBAR.png" alt="" />
+    </div>
 
-      <div class="nav-list">
-        <ul>
-          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="pages/fint.php" class="nav-link">Dicas</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
-        </ul>
-      </div>
+    <div class="nav-list">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="pages/fint.php" class="nav-link">Dicas</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
+      </ul>
+    </div>
+
+    <div class="login-button">
+      <button><a href="#">Login</a></button>
+    </div>
+
+    <div class="mobile-menu-icon">
+      <button onclick="menuShow()">
+        <img class="icon" src="assets/images/svg/menu_white_36dp.svg" />
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <ul>
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Dicas</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
 
       <div class="login-button">
         <button><a href="#">Login</a></button>
       </div>
-
-      <div class="mobile-menu-icon">
-        <button onclick="menuShow()">
-          <img class="icon" src="assets/images/svg/menu_white_36dp.svg" />
-        </button>
-      </div>
-    </nav>
-
-    <div class="mobile-menu">
-      <ul>
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Dicas</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
-
-        <div class="login-button">
-          <button><a href="#">Login</a></button>
-        </div>
-      </ul>
-    </div>
-  </header>
+    </ul>
+  </div>
+</header>

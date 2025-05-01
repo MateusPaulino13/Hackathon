@@ -1,12 +1,12 @@
 <?php
-session_start(); // Required to use $_SESSION
+session_start();
 include 'connection.php';
 
 if (isset($_POST['sub'])) {
     $email = $_POST['femail'] ?? '';
     $password = $_POST['fpassword'] ?? '';
 
-    // Prepare a safe query
+
     $stmt = $con->prepare("SELECT id, passaword FROM users WHERE mail = ?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
@@ -15,7 +15,7 @@ if (isset($_POST['sub'])) {
     if ($result && $result->num_rows > 0) {
         $user = $result->fetch_assoc();
 
-        // Verify hashed password
+
         if (password_verify($password, $user['password'])) {
             $_SESSION['id'] = $user['id'];
             header("Location: home.php");
@@ -31,4 +31,3 @@ if (isset($_POST['sub'])) {
 }
 
 $con->close();
-?>

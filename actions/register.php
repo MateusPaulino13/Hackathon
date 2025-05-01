@@ -6,13 +6,13 @@ $img = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name       = $_POST['name'] ?? '';
     $email       = $_POST['email'] ?? '';
-    $password   = $_POST['password'] ?? ''; 
+    $password   = $_POST['password'] ?? '';
     $age        = $_POST['age'] ?? '';
     $weight     = $_POST['weight'] ?? '';
     $height     = $_POST['height'] ?? '';
-    $createDate = date("Y-m-d H:i:s"); 
+    $createDate = date("Y-m-d H:i:s");
 
-    // Check if email already exists
+
     $stmt = $con->prepare("SELECT id FROM your_table WHERE email = ?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($stmt->num_rows > 0) {
         echo "<script>alert('Email already registered!')</script>";
     } else {
-        // Handle image upload
+
         if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
             $targetDir = "image/";
             $imgName = basename($_FILES['image']['name']);
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-        // Prepare and bind insert query
+
         $insert = $con->prepare("
         INSERT INTO your_table (email, password, image, name, age, create_date, weight, height)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?)
@@ -51,4 +51,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $con->close();
-?>

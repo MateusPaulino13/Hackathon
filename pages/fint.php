@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/fint.css">
     <title>Remédios Naturais</title>
 </head>
+
 <body>
     <?php require("../includes/navbar.html") ?>
 
@@ -33,7 +35,7 @@
         <div class="remedio">
             <h2>Exercício físico</h2>
             <p>Realizar atividades físicas diariamente é muito importante também. faça ao menos 30 minutos de atividade física diariamente, seja caminhada, musculação, dança ou qualquer outra que você goste de fazer.</p>
-        </div>  
+        </div>
         <div class="remedio">
             <h2>Repouso</h2>
             <p>A quantidade de horas de sono é muito importante também, é recomendado que tenha um número de 6 horas à 8 horas de sono toda noite e reservar um dia para descansar e ter uma conexção espiritual.</p>
@@ -48,4 +50,5 @@
         </div>
     </div>
 </body>
+
 </html>
