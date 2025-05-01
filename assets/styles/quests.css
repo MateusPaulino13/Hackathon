@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #172B54;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-list ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #3b78bf;
+}
+
+.login-button button {
+  background-color: #3b78bf;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.login-button button:hover {
+  background-color: #3165a2;
+}
+
+.login-button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #172B54;
+}
+
+/* FORMULÁRIO */
+
+.form-container {
+  max-width: 800px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+form fieldset {
+  border: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+form legend {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #172B54;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 1rem;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+form input[type="radio"] {
+  margin-right: 8px;
+}
+
+form label input[type="radio"] {
+  margin-right: 6px;
+}
+
+form button {
+  background-color: #3b78bf;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #3165a2;
+}
+
+/* Radio options em linha */
+form label + label {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  form label {
+    font-size: 0.95rem;
+  }
+
+  form button {
+    width: 100%;
+  }
+}
+
+/* Estilo para o botão de Voltar ao topo */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #3b78bf;
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-top:hover {
+    background-color: #3165a2;
+  }
+  
+  /* Mostrar o botão quando o usuário rolar para baixo */
+  body.scrolled .back-to-top {
+    display: block;
+  }
+  

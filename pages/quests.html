@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Estilo de Vida</title>
+  <link rel="stylesheet" href="quests.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Autoavaliação de Saúde</h1>
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>🍎 Nutrição</legend>
+        <label>Comeu frutas hoje?</label><br>
+        <label><input type="radio" name="frutas" value="sim"> Sim</label>
+        <label><input type="radio" name="frutas" value="nao"> Não</label><br><br>
+
+        <label>Comeu vegetais hoje?</label><br>
+        <label><input type="radio" name="vegetais" value="sim"> Sim</label>
+        <label><input type="radio" name="vegetais" value="nao"> Não</label><br><br>
+
+        <label>Comeu algum ultraprocessado?</label><br>
+        <label><input type="radio" name="ultraprocessado" value="sim"> Sim</label>
+        <label><input type="radio" name="ultraprocessado" value="nao"> Não</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>🏃 Exercício</legend>
+        <label>Fez exercício?</label><br>
+        <label><input type="radio" name="exercicio" value="sim"> Sim</label>
+        <label><input type="radio" name="exercicio" value="nao"> Não</label><br><br>
+
+        <label>Se sim, quanto tempo? (minutos)</label>
+        <input type="number" name="tempo_exercicio" min="0">
+      </fieldset>
+
+      <fieldset>
+        <legend>💧 Água</legend>
+        <label>Quantos copos ou garrafas de água você bebeu hoje?</label>
+        <input type="text" name="agua">
+      </fieldset>
+
+      <fieldset>
+        <legend>🌞 Luz Solar</legend>
+        <label>Se expôs ao sol hoje?</label><br>
+        <label><input type="radio" name="sol" value="sim"> Sim</label>
+        <label><input type="radio" name="sol" value="nao"> Não</label><br><br>
+
+        <label>Se sim, quanto tempo?</label>
+        <input type="text" name="tempo_sol">
+      </fieldset>
+
+      <fieldset>
+        <legend>⚖️ Temperança</legend>
+        <label>Bebeu algum tipo de álcool hoje?</label><br>
+        <label><input type="radio" name="alcool" value="sim"> Sim</label>
+        <label><input type="radio" name="alcool" value="nao"> Não</label><br><br>
+
+        <label>Usou algum tipo de narcótico?</label><br>
+        <label><input type="radio" name="narcotico" value="sim"> Sim</label>
+        <label><input type="radio" name="narcotico" value="nao"> Não</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>🌳 Ar Livre</legend>
+        <label>Quanto tempo ficou ao ar livre hoje? (minutos)</label>
+        <input type="number" name="tempo_ar" min="0">
+      </fieldset>
+
+      <fieldset>
+        <legend>🛌 Descanso</legend>
+        <label>Dormiu entre 7 e 8 horas esta noite?</label><br>
+        <label><input type="radio" name="sono_adequado" value="sim"> Sim</label>
+        <label><input type="radio" name="sono_adequado" value="nao"> Não</label><br><br>
+
+        <label>Foi dormir antes das 22h?</label><br>
+        <label><input type="radio" name="dormiu_cedo" value="sim"> Sim</label>
+        <label><input type="radio" name="dormiu_cedo" value="nao"> Não</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>🙏 Confiança</legend>
+        <label>Fez alguma prática espiritual hoje?</label><br>
+        <label><input type="radio" name="espiritualidade" value="sim"> Sim</label>
+        <label><input type="radio" name="espiritualidade" value="nao"> Não</label>
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  <!-- Botão de Voltar ao topo -->
+<a href="#" class="back-to-top" title="Voltar ao topo">&#8593; Voltar ao topo</a>
+</body>
+</html>
