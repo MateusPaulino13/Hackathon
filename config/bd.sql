@@ -9,7 +9,7 @@ CREATE TABLE users(
     password_hash CHAR(50),
     created_at DATE
     height int,
-    weight float;
+    weight float
 );
 
 create table daily_entries(
@@ -26,7 +26,7 @@ CREATE TABLE nutrition_entries (
     fruits ENUM('none', 'once', 'more_than_once'),
     vegetables ENUM('none', 'once', 'more_than_once'),
     ultra_processed ENUM('none', 'once', 'more_than_once'),
-        FOREIGN KEY (daily_entries_id) REFERENCES daily_entries(id)
+        FOREIGN KEY (daily_entry_id) REFERENCES daily_entries(id)
 );
 
 create table exercise_entries (
