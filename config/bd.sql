@@ -7,7 +7,7 @@ CREATE TABLE users(
     name CHAR(100),
     email CHAR(100),
     password_hash CHAR(50),
-    created_at DATE
+    created_at DATE,
     height int,
     weight float
 );

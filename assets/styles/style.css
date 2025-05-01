@@ -204,14 +204,24 @@ h1 {
 
 .remedio {
     flex: 1 1 30%;
-    box-sizing: border-box;
-    min-width: 250px;
-    max-width: 300px;
+    
+
     background-color: #3b78bf;
-    padding: 15px;
+    
     border-radius: 8px;
     cursor: pointer;
 }
+
+.remedio .task {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, margin-top 0.3s;
+  }
+  .remedio.expanded .task {
+    max-height: 200px;
+    margin-top: 10px;
+  }  
+
 
 .remedio h2 {
     margin-bottom: 10px;
