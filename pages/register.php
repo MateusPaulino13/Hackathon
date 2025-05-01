@@ -48,6 +48,7 @@
       </div>
 
       <button type="submit" class="btn btn-primary w-100">Register</button>
+      <a href="login.php">Logar</a>
     </form>
   </div>
 </div>

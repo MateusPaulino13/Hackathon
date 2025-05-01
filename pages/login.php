@@ -20,6 +20,7 @@
         <input type="password" class="form-control" id="fpassaword" name="fpassaword" required>
       </div>
       <button type="submit" name="sub" class="btn btn-primary w-100">Login</button>
+      <a href="register.php">Cadastrar</a>
     </form>
   </div>
 </div>
