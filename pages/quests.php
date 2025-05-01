@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Formulário de Estilo de Vida</title>
   <link rel="stylesheet" href="quests.css">
 </head>
+
 <body>
   <div class="form-container">
     <h1>Autoavaliação de Saúde</h1>
@@ -90,6 +92,7 @@
     </form>
   </div>
   <!-- Botão de Voltar ao topo -->
-<a href="#" class="back-to-top" title="Voltar ao topo">&#8593; Voltar ao topo</a>
+  <a href="#" class="back-to-top" title="Voltar ao topo">&#8593; Voltar ao topo</a>
 </body>
+
 </html>

@@ -1,8 +1,6 @@
 <?php
 include 'connection.php';
 
-$img = '';
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name       = $_POST['name'] ?? '';
     $email       = $_POST['email'] ?? '';
@@ -32,8 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
-        $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-
+        $hashedPassword = md5($password);
 
         $insert = $con->prepare("
         INSERT INTO your_table (email, password, image, name, age, create_date, weight, height)
