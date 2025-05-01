@@ -26,7 +26,7 @@
         </div>
         <div class="remedio">
             <h2>Ar puro</h2>
-            <p>Respire ar puro e evite poluições, especialmente em luagres fechados.</p>
+            <p>Respire ar puro e evite poluições, especialmente em lugares fechados.</p>
         </div>
         <div class="remedio">
             <h2>Luz solar</h2>
@@ -38,11 +38,11 @@
         </div>
         <div class="remedio">
             <h2>Repouso</h2>
-            <p>A quantidade de horas de sono é muito importante também, é recomendado que tenha um número de 6 horas à 8 horas de sono toda noite e reservar um dia para descansar e ter uma conexção espiritual.</p>
+            <p>A quantidade de horas de sono é muito importante também, é recomendado que tenha um número de 6 horas a 8 horas de sono toda noite e reservar um dia para descansar e ter uma conexção espiritual.</p>
         </div>
         <div class="remedio">
             <h2>Temperança</h2>
-            <p>Também é uma boa forma usar remédios para manter um estilo de vida saudável e equilibrada.</p>
+            <p>Temperança é o equilíbrio. Envolve evitar excessos e vícios, mantendo moderação em tudo, desde a alimentação até o uso do tempo.</p>
         </div>
         <div class="remedio">
             <h2>Confiança em Deus</h2>
