@@ -18,35 +18,35 @@
     <div class="grid-container">
         <div class="remedio">
             <h2>Alimentação Saudável</h2>
-            <p>A alimentação é uma das principais formas de se manter saudável, por isso, é importante comer alimentos ricos em fibras e nutrientes, evitar comer alimentos processados, com muita gordura ou frituras, e é importante comer frutas, verduras e legumes.</p>
+            <p>A alimentação é uma das principais formas de manter a saúde. É importante consumir alimentos ricos em fibras e nutrientes, evitar processados, gorduras e frituras, e priorizar frutas, verduras e legumes.</p>
         </div>
         <div class="remedio">
             <h2>Água</h2>
-            <p>A água é muito importante para a manutenção do corpo, por isso, se deve tomar no minimo 2L por dia, porém, se você quiser beber de forma mais exata, faça uma conta simples de 0,35ml de água por KG corporal que você tem.</p>
+            <p>Beber água é essencial para o bom funcionamento do corpo. O ideal é consumir no mínimo 2 litros por dia, ou calcular 35 ml para cada quilo corporal.</p>
         </div>
         <div class="remedio">
             <h2>Ar puro</h2>
-            <p>Respire ar puro e evite poluições, especialmente em lugares fechados.</p>
+            <p>Respire ar puro sempre que possível. Evite locais fechados e poluídos, e valorize momentos ao ar livre.</p>
         </div>
         <div class="remedio">
             <h2>Luz solar</h2>
-            <p>Se expor à luz solar é uma otima forma de manter seu corpo saudável, já que a luz solar fornece vitamina D para seu corpo, mas cuidado! não exponha-se em longos periodos à luz solar nos horários entre 12:00 e 16:00, pois nesses horários o sol se torna prejudicial em longos periodos de exposição.</p>
+            <p>Tomar sol diariamente auxilia na produção de vitamina D. Evite a exposição prolongada entre 12h e 16h, quando os raios solares são mais intensos.</p>
         </div>
         <div class="remedio">
             <h2>Exercício físico</h2>
-            <p>Realizar atividades físicas diariamente é muito importante também. faça ao menos 30 minutos de atividade física diariamente, seja caminhada, musculação, dança ou qualquer outra que você goste de fazer.</p>
+            <p>Pratique atividades físicas diariamente, por pelo menos 30 minutos. Pode ser caminhada, dança, musculação ou qualquer outra que você goste.</p>
         </div>
         <div class="remedio">
             <h2>Repouso</h2>
-            <p>A quantidade de horas de sono é muito importante também, é recomendado que tenha um número de 6 horas a 8 horas de sono toda noite e reservar um dia para descansar e ter uma conexção espiritual.</p>
+            <p>Tenha entre 6 a 8 horas de sono por noite. Também é importante separar momentos de descanso físico, mental e espiritual ao longo da semana.</p>
         </div>
         <div class="remedio">
             <h2>Temperança</h2>
-            <p>Temperança é o equilíbrio. Envolve evitar excessos e vícios, mantendo moderação em tudo, desde a alimentação até o uso do tempo.</p>
+            <p>A temperança é o equilíbrio. Significa evitar excessos e vícios, mantendo uma vida moderada em todas as áreas, como alimentação, sono, trabalho e lazer.</p>
         </div>
         <div class="remedio">
             <h2>Confiança em Deus</h2>
-            <p>Acreitar em Deus e reservar um tempo para criar uma conexção com ele e com o espirito é uma ótima forma de manter a saúde mental e espiritual.</p>
+            <p>Confiar em Deus e reservar tempo para a espiritualidade fortalece a saúde mental, emocional e espiritual.</p>
         </div>
     </div>
 </body>
