@@ -7,6 +7,8 @@
     <title>Remédios Naturais</title>
 </head>
 <body>
+    <?php require("../includes/navbar.html") ?>
+
     <h1>Dicas de como manter-se saudável usando os 8 remédios naturais?</h1>
     <div class="intro">
     </div>

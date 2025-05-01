@@ -14,7 +14,7 @@
     /> -->
   </head>
   <body>
-    <header>
+  <header>
       <nav class="nav-bar">
         <div class="logo">
           <img class="image" src="assets/images/8HealthNAVBAR.png" alt="" />
