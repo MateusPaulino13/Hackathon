@@ -22,6 +22,12 @@
         <img class="image" src="assets/images/8HealthNAVBAR.png" alt="" />
       </div>
 
+    <div class="menu-toggle" onclick="document.querySelector('.nav-list').classList.toggle('active')">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
       <div class="nav-list">
         <ul>
           <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
@@ -34,24 +40,8 @@
         <button><a href="#">Login</a></button>
       </div>
 
-      <div class="mobile-menu-icon">
-        <button onclick="menuShow()">
-          <img class="icon" src="assets/images/svg/menu_white_36dp.svg" />
-        </button>
-      </div>
+      
     </nav>
-
-    <div class="mobile-menu">
-      <ul>
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Dicas</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
-
-        <div class="login-button">
-          <button><a href="#">Login</a></button>
-        </div>
-      </ul>
-    </div>
   </header>
 
   <h1>O que são os 8 remédios naturais?</h1>
