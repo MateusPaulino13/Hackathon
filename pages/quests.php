@@ -1,98 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
-  <title>Formulário de Estilo de Vida</title>
-  <link rel="stylesheet" href="quests.css">
-</head>
-
+  <title>Autoavaliação de Saúde</title>
+  <link rel="stylesheet" href="../assets/styles/quests.css">
+  <link rel="stylesheet" href="../assets/styles/style.css" />
+  </head>
 <body>
+  <?php require("../includes/navbar.html") ?>
+
   <div class="form-container">
     <h1>Autoavaliação de Saúde</h1>
     <form action="#" method="post">
+      
+      <!-- Nutrição -->
+      <div class="card">
+        <h3>🍎 Nutrição</h3>
+        <label><input type="radio" name="frutas" value="sim"> Comeu frutas hoje?</label>
+        <label><input type="radio" name="vegetais" value="sim"> Comeu vegetais hoje?</label>
+        <label><input type="radio" name="ultraprocessado" value="sim"> Comeu ultraprocessados?</label>
+      </div>
 
-      <fieldset>
-        <legend>🍎 Nutrição</legend>
-        <label>Comeu frutas hoje?</label><br>
-        <label><input type="radio" name="frutas" value="sim"> Sim</label>
-        <label><input type="radio" name="frutas" value="nao"> Não</label><br><br>
-
-        <label>Comeu vegetais hoje?</label><br>
-        <label><input type="radio" name="vegetais" value="sim"> Sim</label>
-        <label><input type="radio" name="vegetais" value="nao"> Não</label><br><br>
-
-        <label>Comeu algum ultraprocessado?</label><br>
-        <label><input type="radio" name="ultraprocessado" value="sim"> Sim</label>
-        <label><input type="radio" name="ultraprocessado" value="nao"> Não</label>
-      </fieldset>
-
-      <fieldset>
-        <legend>🏃 Exercício</legend>
-        <label>Fez exercício?</label><br>
-        <label><input type="radio" name="exercicio" value="sim"> Sim</label>
-        <label><input type="radio" name="exercicio" value="nao"> Não</label><br><br>
-
-        <label>Se sim, quanto tempo? (minutos)</label>
+      <!-- Exercício -->
+      <div class="card">
+        <h3>🏃 Exercício</h3>
+        <label><input type="radio" name="exercicio" value="sim"> Fez exercício?</label>
+        <label>Quanto tempo? (min)</label>
         <input type="number" name="tempo_exercicio" min="0">
-      </fieldset>
+      </div>
 
-      <fieldset>
-        <legend>💧 Água</legend>
+      <!-- Água -->
+      <div class="card">
+        <h3>💧 Água</h3>
         <label>Quantos copos ou garrafas de água você bebeu hoje?</label>
         <input type="text" name="agua">
-      </fieldset>
+      </div>
 
-      <fieldset>
-        <legend>🌞 Luz Solar</legend>
-        <label>Se expôs ao sol hoje?</label><br>
-        <label><input type="radio" name="sol" value="sim"> Sim</label>
-        <label><input type="radio" name="sol" value="nao"> Não</label><br><br>
-
-        <label>Se sim, quanto tempo?</label>
+      <!-- Luz Solar -->
+      <div class="card">
+        <h3>🌞 Luz Solar</h3>
+        <label><input type="radio" name="sol" value="sim"> Se expôs ao sol hoje?</label>
+        <label>Quanto tempo? (min)</label>
         <input type="text" name="tempo_sol">
-      </fieldset>
+      </div>
 
-      <fieldset>
-        <legend>⚖️ Temperança</legend>
-        <label>Bebeu algum tipo de álcool hoje?</label><br>
-        <label><input type="radio" name="alcool" value="sim"> Sim</label>
-        <label><input type="radio" name="alcool" value="nao"> Não</label><br><br>
+      <!-- Temperança -->
+      <div class="card">
+        <h3>⚖️ Temperança</h3>
+        <label><input type="radio" name="alcool" value="sim"> Bebeu álcool?</label>
+        <label><input type="radio" name="narcotico" value="sim"> Usou narcótico?</label>
+      </div>
 
-        <label>Usou algum tipo de narcótico?</label><br>
-        <label><input type="radio" name="narcotico" value="sim"> Sim</label>
-        <label><input type="radio" name="narcotico" value="nao"> Não</label>
-      </fieldset>
-
-      <fieldset>
-        <legend>🌳 Ar Livre</legend>
-        <label>Quanto tempo ficou ao ar livre hoje? (minutos)</label>
+      <!-- Ar Livre -->
+      <div class="card">
+        <h3>🌳 Ar Livre</h3>
+        <label>Quanto tempo ficou ao ar livre? (min)</label>
         <input type="number" name="tempo_ar" min="0">
-      </fieldset>
+      </div>
 
-      <fieldset>
-        <legend>🛌 Descanso</legend>
-        <label>Dormiu entre 7 e 8 horas esta noite?</label><br>
-        <label><input type="radio" name="sono_adequado" value="sim"> Sim</label>
-        <label><input type="radio" name="sono_adequado" value="nao"> Não</label><br><br>
+      <!-- Descanso -->
+      <div class="card">
+        <h3>🛌 Descanso</h3>
+        <label><input type="radio" name="sono_adequado" value="sim"> Dormiu entre 7-8h?</label>
+        <label><input type="radio" name="dormiu_cedo" value="sim"> Foi dormir antes das 22h?</label>
+      </div>
 
-        <label>Foi dormir antes das 22h?</label><br>
-        <label><input type="radio" name="dormiu_cedo" value="sim"> Sim</label>
-        <label><input type="radio" name="dormiu_cedo" value="nao"> Não</label>
-      </fieldset>
+      <!-- Confiança -->
+      <div class="card">
+        <h3>🙏 Confiança</h3>
+        <label><input type="radio" name="espiritualidade" value="sim"> Fez prática espiritual?</label>
+      </div>
 
-      <fieldset>
-        <legend>🙏 Confiança</legend>
-        <label>Fez alguma prática espiritual hoje?</label><br>
-        <label><input type="radio" name="espiritualidade" value="sim"> Sim</label>
-        <label><input type="radio" name="espiritualidade" value="nao"> Não</label>
-      </fieldset>
-
+      <!-- Botão -->
       <button type="submit">Enviar</button>
     </form>
-  </div>
-  <!-- Botão de Voltar ao topo -->
-  <a href="#" class="back-to-top" title="Voltar ao topo">&#8593; Voltar ao topo</a>
-</body>
 
+    <a href="#" class="back-to-top">↑ Voltar ao topo</a>
+  </div>
+</body>
 </html>
