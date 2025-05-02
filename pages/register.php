@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Register</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 </head>
 
 <body class="bg-light">
@@ -12,7 +12,7 @@
   <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="card p-4 shadow" style="width: 100%; max-width: 500px;">
       <h3 class="mb-4 text-center">User Registration</h3>
-      <form method="POST" action="register.php" enctype="multipart/form-data">
+      <form method="POST" action="../actions/register.php" enctype="multipart/form-data">
 
         <div class="mb-3">
           <label for="name" class="form-label">Full Name</label>
@@ -29,10 +29,10 @@
           <input type="password" class="form-control" id="password" name="password" required>
         </div>
 
-        <div class="mb-3">
+        <!-- <div class="mb-3">
           <label for="age" class="form-label">Age</label>
           <input type="number" class="form-control" id="age" name="age" required>
-        </div>
+        </div> -->
 
         <div class="mb-3">
           <label for="weight" class="form-label">Weight (kg)</label>
@@ -44,18 +44,18 @@
           <input type="number" class="form-control" id="height" name="height" step="0.01" required>
         </div>
 
-        <div class="mb-3">
+        <!-- <div class="mb-3">
           <label for="image" class="form-label">Profile Image</label>
           <input type="file" class="form-control" id="image" name="image" accept="image/*">
-        </div>
+        </div> -->
 
         <button type="submit" class="btn btn-primary w-100">Register</button>
-        <a href="login.php">Logar</a>
+        <a href="login.php">Já tem conta? Logar</a>
       </form>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 </body>
 
 </html>
