@@ -28,13 +28,12 @@
         <span></span>
       </div>
 
-      <div class="nav-list">
-        <ul>
-          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="pages/fint.php" class="nav-link">Dicas</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
-        </ul>
-      </div>
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="pages/fint.php" class="nav-link">Dicas</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
+    </ul>
+    
 
       <div class="login-button">
         <button><a href="#">Login</a></button>

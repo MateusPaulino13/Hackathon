@@ -7,178 +7,110 @@
   font-family: "Inter", sans-serif;
 }
 
+/* Fundo geral */
 body {
-  background-color: #f4f7fa;
-  color: #333;
-}
-
-header {
-  background-color: #172b54;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 4rem;
-}
-
-.logo img {
-  height: 50px;
-}
-
-.nav-list ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #3b78bf;
-}
-
-.login-button button {
-  background-color: #3b78bf;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  transition: background 0.3s;
-}
-
-.login-button button:hover {
-  background-color: #3165a2;
-}
-
-.login-button a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-h1 {
-  text-align: center;
-  font-size: 2rem;
-  margin: 40px 0 20px;
-  color: #172b54;
-}
-
-/* FORMULÁRIO */
-
-.form-container {
-  max-width: 800px;
-  background: #fff;
-  margin: 40px auto;
-  padding: 30px 40px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-form fieldset {
-  border: none;
-  margin-bottom: 30px;
+  background-color: #f1f5f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
   padding: 0;
+  color: #1e293b;
 }
 
-form legend {
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-  color: #172b54;
+/* Container do formulário */
+.form-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-form label {
+/* Título */
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0f172a;
+}
+
+/* Cards */
+.card {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+/* Título dos blocos */
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+/* Labels */
+.card label {
   display: block;
-  margin-bottom: 8px;
-  color: #333;
-  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
 }
 
-form input[type="text"],
-form input[type="number"] {
+/* Inputs */
+.card input[type="text"],
+.card input[type="number"] {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
   border-radius: 8px;
-  margin-bottom: 20px;
   font-size: 1rem;
+  margin-top: 0.25rem;
+  box-sizing: border-box;
 }
 
-form input[type="radio"] {
-  margin-right: 8px;
+.card input[type="radio"] {
+  margin-right: 0.4rem;
 }
 
-form label input[type="radio"] {
-  margin-right: 6px;
-}
-
-form button {
-  background-color: #3b78bf;
+/* Botão de envio */
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2563eb;
   color: white;
-  padding: 12px 24px;
-  font-size: 1rem;
-  font-weight: 600;
   border: none;
   border-radius: 10px;
+  font-size: 1.1rem;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.2s ease;
 }
 
-form button:hover {
-  background-color: #3165a2;
+button[type="submit"]:hover {
+  background-color: #1e40af;
 }
 
-/* Radio options em linha */
-form label + label {
-  margin-right: 20px;
-  display: inline-block;
-}
-
-/* RESPONSIVO */
-@media (max-width: 600px) {
-  .form-container {
-    padding: 20px;
-  }
-
-  form label {
-    font-size: 0.95rem;
-  }
-
-  form button {
-    width: 100%;
-  }
-}
-
-/* Estilo para o botão de Voltar ao topo */
+/* Voltar ao topo */
 .back-to-top {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: #3b78bf;
-  color: white;
-  padding: 15px;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-top: 2rem;
   text-align: center;
+  color: #2563eb;
   text-decoration: none;
-  display: none;
-  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+  float: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background-color: #e0ecff;
+  transition: background-color 0.2s ease;
 }
 
 .back-to-top:hover {
-  background-color: #3165a2;
-}
-
-/* Mostrar o botão quando o usuário rolar para baixo */
-body.scrolled .back-to-top {
-  display: block;
+  background-color: #cddffb;
 }
