@@ -17,6 +17,6 @@ if (ini_get("session.use_cookies")) {
 session_destroy();
 
 // Redirect the user to the login page or any other desired page
-header("Location: login.php"); // Replace "login.php" with your actual login page URL
+header("Location: ../pages/login.php"); // Replace "login.php" with your actual login page URL
 exit();
 ?>

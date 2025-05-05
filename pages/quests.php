@@ -1,3 +1,5 @@
+<?php include "../actions/quests.php"?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
