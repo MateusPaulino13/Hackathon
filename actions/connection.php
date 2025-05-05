@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$db   = 'hackaton';
+$db   = 'hackathon';
 $user = 'root';
 $pass = '';
 

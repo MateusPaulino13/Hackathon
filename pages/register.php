@@ -1,3 +1,9 @@
+<?php include "../actions/register.php"?>
+
+<?php if (isset($_GET['error']) && $_GET['error'] === 'email'): ?>
+  <div style="color: red; text-align: center;">Email já cadastrado!</div>
+<?php endif; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
