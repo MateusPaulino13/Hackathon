@@ -1,4 +1,4 @@
-<?php include 'actions/user_interface.php'; ?>
+<?php include "../actions/user_interface.php"; ?>
 <form method="post" action="">
     <h2>Resumo</h2>
     <ul>
