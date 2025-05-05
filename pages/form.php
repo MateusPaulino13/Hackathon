@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='main.css'>
-    <!-- <script src='main.js'></script> -->
-</head>
-<body>
+<?php include 'actions/form.php'; ?>
     <form action="actions/form.php" method="post" class="container mt-4">
-   
     <!-- Nutrition -->
   <fieldset class="border p-3 mb-4">
     <legend class="w-auto px-2">Nutrition</legend>
@@ -137,6 +126,3 @@
     <button type="submit" class="btn btn-primary">Submit Entry</button>
   </div>
     </form>
-
-</body>
-</html>
