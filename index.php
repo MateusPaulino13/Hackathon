@@ -31,7 +31,7 @@
     <ul class="nav-list">
       <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
       <li class="nav-item"><a href="pages/fint.php" class="nav-link">Dicas</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Tarefas</a></li>
+      <li class="nav-item"><a href="pages/quests.php" class="nav-link">Tarefas</a></li>
     </ul>
     
 
@@ -41,44 +41,55 @@
     </nav>
   </header>
 
-  <h1>O que são os 8 remédios naturais?</h1>
+  <h1>Bem-vindo ao 8Health</h1>
   <div class="intro">
-    <p>Os oito remédios naturais são princípios práticos de saúde e bem-estar, frequentemente associados à Igreja Adventista do Sétimo Dia, que promovem uma vida saudável através de hábitos naturais. Eles incluem alimentação saudável, água, ar puro, luz solar, exercício físico, repouso, temperança e confiança em Deus.</p>
+  <p>
+      O 8Health tem como objetivo te ajudar a cuidar melhor da sua saúde física, mental e espiritual.
+      Baseado nos <strong>8 Remédios Naturais</strong>, você poderá monitorar seus hábitos e receber análises sobre seu progresso semanal e mensal.
+    </p>
+    <p>
+      O conceito dos 8 Remédios Naturais tem origem em estudos de saúde natural e holística,
+      popularizado pela escritora e educadora Ellen G. White no século XIX.
+      Ele propõe que a verdadeira saúde é alcançada através de equilíbrio entre práticas naturais e consistentes.
+    </p>
   </div>
 
   <div class="grid-container">
     <div class="remedio">
-      <h2>Alimentação Saudável</h2>
-      <p>Uma dieta equilibrada e rica em nutrientes, como frutas, verduras, legumes e cereais integrais, é fundamental para o bom funcionamento do organismo e prevenção de doenças.</p>
+      <h2>🍎 Nutrição</h2>
+      <p>Alimente-se com equilíbrio, focando em vegetais, frutas e alimentos naturais.</p>
     </div>
     <div class="remedio">
-      <h2>Água</h2>
-      <p>A ingestão adequada de água é essencial para a hidratação e diversos processos metabólicos.</p>
+      <h2>💧 Água</h2>
+      <p>AHidrate-se com água pura e suficiente ao longo do dia.</p>
     </div>
     <div class="remedio">
-      <h2>Ar puro</h2>
-      <p>Respirar ar limpo e livre de poluição é importante para a saúde respiratória e geral.</p>
+      <h2>🌳 Ar Puro</h2>
+      <p>RBusque ambientes ao ar livre e respire profundamente.</p>
     </div>
     <div class="remedio">
-      <h2>Luz solar</h2>
-      <p>A exposição ao sol, em quantidades adequadas, ajuda na produção de vitamina D e tem outros benefícios para a saúde.</p>
+      <h2>🌞 Luz Solar</h2>
+      <p>Exponha-se ao sol moderadamente para obter vitamina D e bem-estar.</p>
     </div>
     <div class="remedio">
-      <h2>Exercício físico</h2>
-      <p>A prática regular de atividade física, mesmo que leve, é fundamental para a saúde cardiovascular, muscular e mental.</p>
+      <h2>🏃 Exercício</h2>
+      <p>Movimente-se diariamente para fortalecer seu corpo e mente.</p>
     </div>
     <div class="remedio">
-      <h2>Repouso</h2>
-      <p>Descanso adequado, com sono de qualidade, é crucial para a recuperação do corpo e da mente.</p>
+      <h2>🛌 Descanso</h2>
+      <p>Durma bem e respeite os ciclos naturais do corpo.</p>
     </div>
     <div class="remedio">
-      <h2>Temperança</h2>
-      <p>O uso equilibrado dos dons de Deus e a moderação em hábitos como alimentação, bebida e trabalho.</p>
+      <h2>⚖️ Temperança</h2>
+      <p>Evite excessos e vícios, mantendo o equilíbrio emocional e físico.</p>
     </div>
     <div class="remedio">
-      <h2>Confiança em Deus</h2>
-      <p>A fé e a crença em uma força maior podem trazer paz interior e apoio em momentos difíceis.</p>
+      <h2>🙏 Confiança em Deus</h2>
+      <p>Alimente sua fé, sua espiritualidade e propósito de vida.</p>
     </div>
+  </div>
+  <div class="cta-button">
+      <a href="pages/quests.php">Comece sua jornada de saúde</a>
   </div>
 
   <script src="assets/script/script.js"></script>
