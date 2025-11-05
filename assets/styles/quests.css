@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Fundo geral */
+body {
+  background-color: #f1f5f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1e293b;
+}
+
+/* Container do formulário */
+.form-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Título */
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0f172a;
+}
+
+/* Cards */
+.card {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+/* Título dos blocos */
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+/* Labels */
+.card label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+
+/* Inputs */
+.card input[type="text"],
+.card input[type="number"] {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  box-sizing: border-box;
+}
+
+.card input[type="radio"] {
+  margin-right: 0.4rem;
+}
+
+/* Botão de envio */
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e40af;
+}
+
+/* Voltar ao topo */
+.back-to-top {
+  display: inline-block;
+  margin-top: 2rem;
+  text-align: center;
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+  float: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background-color: #e0ecff;
+  transition: background-color 0.2s ease;
+}
+
+.back-to-top:hover {
+  background-color: #cddffb;
+}
